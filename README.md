@@ -18,6 +18,12 @@ cd ubuntu-chrome-dark
 sudo ./ubuntu-chrome-dark
 ```
 
+Optionally you can specify the config file location to your google-chrome.desktop file using the `-f` flag
+
+```
+sudo ./ubuntu-chrome-dark -f /path/to/file
+```
+
 ### Notes
 
 Running the binary multiple times will not matter so if you wanted to set it up to run on login you could (this will catch when chrome updates and `dark-mode` may disappear!)
